@@ -9,7 +9,7 @@ import { formUrlQuery, removeKeysFromQuery } from "@/lib/utils";
 const Search = ({
   placeholder = "Search title...",
 }: {
-  placeholder: string;
+  placeholder?: string;
 }) => {
   const [query, setQuery] = useState("");
   const searchParams = useSearchParams();
@@ -26,7 +26,7 @@ const Search = ({
           value: query,
         });
       } else {
-        const newUrl = removeKeysFromQuery({
+          newUrl = removeKeysFromQuery({
           params: searchParams.toString(),
           keysToRemove: ["query"],
         });
