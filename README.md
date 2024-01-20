@@ -12,6 +12,14 @@
 
 > This intuitive fullstack application allows regular sign in, as well as authentication via Google and Github. Moreover, one can search for events by name or category. Then, it is possible to buy a ticket - via an integrated payment module - and confirm attendance. If you are an event creator, you can check purchases.
 
+### Take a look at the page
+
+<img src = gif/page_gif.gif>
+
+### or... give it a try!
+
+https://event-organization.vercel.app/
+
 ## Tech
 
 A couple of technologies were employed in this project. Among them:
